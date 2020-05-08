@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teste JS</title>
+</head>
+  <div id="app">
+   
+  </div>
+<body>
+    
+  <script>
+    var linkElement = document.createElement('a');
+    linkElement.setAttribute('href','http://www.github.com/bernardo2512');
+    linkElement.setAttribute('title','Acesso ao GitHub do Bernardo');
+
+    var text = document.createTextNode('Acessar GitHub do Bernardo Luz');
+    linkElement.appendChild(text);
+
+    var inclusao = document.querySelector('#app');
+    inclusao.appendChild(linkElement);
+  </script>
+</body>
+</html>
