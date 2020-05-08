@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 5</title>
+</head>
+<body>
+    <button onclick="verNomeHabilidade(usuarios)">Resposta</button>
+    <script>
+        function verNomeHabilidade(user){
+            for (var res of user){
+                console.log(`O ${res.nome} possui as habilidades: ${res.habilidades.join()}`);
+            }
+        }
+
+        var usuarios = [{
+            nome: "Diego",
+            habilidades: ["Javascript", "ReactJS", "Redux"]
+            },
+            {
+            nome: "Gabriel",
+            habilidades: ["VueJS", "Ruby on Rails", "Elixir"]
+            }
+        ];
+
+    </script>
+</body>
+</html>

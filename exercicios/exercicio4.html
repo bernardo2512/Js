@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 04</title>
+</head>
+<body>
+
+    <button onclick="experiencia(anosEstudo)">Resposta</button>
+
+
+    <script>
+        function experiencia(anos) {
+            var resposta = anos <=1 ? "Iniciante": anos <=3 ? "Intermediario": anos <=6 ?"Avançado":"Jedi Master"
+            console.log(resposta)
+           }
+           var anosEstudo = 7;
+           
+           // De 0-1 ano: Iniciante
+           // De 1-3 anos: Intermediário
+           // De 3-6 anos: Avançado
+           // De 7 acima: Jedi Master
+    </script>
+</body>
+</html>
