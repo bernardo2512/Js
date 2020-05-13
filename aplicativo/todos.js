@@ -51,3 +51,7 @@ function deleteTodo(pos){
 function saveToStorage(){
     localStorage.setItem('list_todos',JSON.stringify(todos));
 }
+
+function chamaTexto(){
+    alert('Voce passou o mouse por cima !')
+}
